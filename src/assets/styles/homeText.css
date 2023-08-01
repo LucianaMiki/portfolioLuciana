@@ -29,6 +29,29 @@
     }
 }
 
-@media only screen and (orientation: portrait) {
-    
+@media (max-width: 480px)  {
+    .text-container {
+        margin-top:40%;
+        margin-left: 5%;
+        padding:0;
+        color: rgb(203, 203, 203);
+        font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    }
+
+    .text-container div {
+        margin-top: 1%;
+    }
+
+    .p-container {
+        margin:0;
+        top: 100%;
+        left:0%;
+        width: 100%;
+    }
+
+    .title {
+        font-size: 50px;
+        margin-bottom: 0%;
+        margin-top: 0%;
+    }
 }

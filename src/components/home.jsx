@@ -31,7 +31,7 @@ function Home() {
   }}
 
   return (
-    <div>
+    <div className="site-container">
         <HomeButton HandleClickHome={HandleClickHome}/>
         <SocialButtonn/>
         <Projects HandleClick={HandleClick} />
