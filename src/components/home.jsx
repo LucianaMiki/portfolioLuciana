@@ -1,4 +1,4 @@
-import * as React from 'react'
+import * as React from 'react';
 import '../assets/styles/home.css';
 import HomeButton from './homeButton';
 import SocialButtonn from './socialButtons';
