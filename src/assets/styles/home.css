@@ -1,14 +1,31 @@
-body {
-    background-color: #424242;
+@media only screen and (orientation: landscape) {
+    body {
+        background-color: #424242;
+    }
+
+    .home{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 70%;
+        height: 60%;
+    }
 }
 
-.home{
-    background-color: aqua;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    width: 70%;
-    height: 60%;
+@media only screen and (orientation: portrait) {
+    body {
+        background-color: #424242;
+    }
+
+    .home{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 70%;
+        height: 60%;
+    }
 }

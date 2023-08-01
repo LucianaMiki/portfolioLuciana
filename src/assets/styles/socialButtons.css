@@ -1,3 +1,4 @@
+@media only screen and (orientation: landscape) {  
   .list {
     margin:0;
     padding:0;
@@ -52,3 +53,73 @@
     box-shadow: 0 0 15px #d35400;
     text-shadow: 0 0 15px #d35400;
   }
+}
+
+@media only screen and (orientation: portrait) {
+  .list {
+    margin:0;
+    padding:0;
+    display:flex;
+    position: absolute;
+    top: 7%;
+    left: 150%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .list li {
+    list-style:none;
+    margin: 0 15px;
+  }
+  
+  .list li a {
+    position: relative;
+    display: block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 60px;
+    background: #171515;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #666;
+    transition: .5s;
+  }
+  
+  .list li a:before {
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    border-radius:50%;
+    background: #d35400;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+  }
+  
+  .list li a:hover:before {
+    transform: scale(1.2);
+    box-shadow: 0 0 15px #d35400;
+    filter: blur(3px);
+  }
+  
+  .list li a:hover {
+    color: #ffa502;
+    box-shadow: 0 0 15px #d35400;
+    text-shadow: 0 0 15px #d35400;
+  }
+
+  .mail-icon{
+    margin-top: 18%;
+  }
+
+  .git-icon{
+    margin-top: 18%;
+  }
+
+  .linkedin-icon{
+    margin-top: 18%;
+  }
+}
