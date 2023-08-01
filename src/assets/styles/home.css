@@ -14,9 +14,14 @@
     }
 }
 
-@media only screen and (orientation: portrait) {
+@media (max-width: 480px)  {
+    html, body {
+        overflow-x: hidden;
+    }
+
     body {
         background-color: #424242;
+        position: relative
     }
 
     .home{
