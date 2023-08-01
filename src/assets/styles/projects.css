@@ -1,0 +1,32 @@
+.projects-container {
+    margin:0;
+    padding:0;
+    position: absolute;
+    top: 30%;
+    left:65%;
+    color: rgb(203, 203, 203);
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+.projects-title {
+    font-size: 30px;
+    margin-top: 25%;
+    margin-left: 15%;
+}
+
+.button{
+    background-color: transparent;
+    color: rgb(203, 203, 203);
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-size: 20px;
+    margin-top: 0%;
+}
+
+.project-list {
+    list-style-type: none;
+    width: 500%;
+    padding:0;
+    position: absolute;
+    top: 8%0;
+    left: 0%;
+}

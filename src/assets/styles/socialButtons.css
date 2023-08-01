@@ -1,4 +1,4 @@
-  ul {
+  .list {
     margin:0;
     padding:0;
     display:flex;
@@ -8,12 +8,12 @@
     transform: translate(-50%, -50%);
   }
   
-  ul li {
+  .list li {
     list-style:none;
     margin: 0 15px;
   }
   
-  ul li a {
+  .list li a {
     position: relative;
     display: block;
     width: 60px;
@@ -27,7 +27,7 @@
     transition: .5s;
   }
   
-  ul li a:before {
+  .list li a:before {
     content: '';
     position: absolute;
     top:0;
@@ -41,13 +41,13 @@
     z-index: -1;
   }
   
-  ul li a:hover:before {
+  .list li a:hover:before {
     transform: scale(1.2);
     box-shadow: 0 0 15px #d35400;
     filter: blur(3px);
   }
   
-  ul li a:hover {
+  .list li a:hover {
     color: #ffa502;
     box-shadow: 0 0 15px #d35400;
     text-shadow: 0 0 15px #d35400;

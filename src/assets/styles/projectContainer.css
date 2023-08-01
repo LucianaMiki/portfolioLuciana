@@ -1,0 +1,30 @@
+.project-container {
+    margin:0;
+    padding:0;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    color: rgb(203, 203, 203);
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+.project-iamge {
+    margin-top: 0px;
+    width: 500px;
+}
+
+.project-title {
+    position: fixed;
+    bottom: 25%;
+    left: 20%;
+    margin-top: 5%;
+    font-size: 300%;
+}
+
+.project-description {
+    position: fixed;
+    bottom: 20%;
+    left: 20%;
+    margin-top: 5%;
+    font-size: 120%;
+}
