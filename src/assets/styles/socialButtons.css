@@ -55,7 +55,7 @@
   }
 }
 
-@media only screen and (orientation: portrait) {
+@media only screen and (max-width: 480px) {
   .list {
     margin:0;
     padding:0;
@@ -113,13 +113,16 @@
 
   .mail-icon{
     margin-top: 18%;
+    font-size: 60px;
   }
 
   .git-icon{
     margin-top: 18%;
+    font-size: 60px;
   }
 
   .linkedin-icon{
     margin-top: 18%;
+    font-size: 60px;
   }
 }

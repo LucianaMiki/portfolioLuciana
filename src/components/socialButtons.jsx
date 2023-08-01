@@ -10,9 +10,9 @@ function SocialButtons() {
     <div>
         <div className="container">
             <ul className="list">
-                <li><a href="mailto:lucianamikiochiai@gmail.com"><FontAwesomeIcon className="mail-icon" icon={faEnvelope} size="2x" /></a></li>
-                <li><a href="https://github.com/LucianaMiki"><FontAwesomeIcon className="git-icon" icon={faGithub} size="2x"/></a></li>
-                <li><a href="https://www.linkedin.com/in/lucianamikiochiai/"><FontAwesomeIcon className="linkedin-icon" icon={faLinkedin} size="2x"/></a></li>
+                <li><a href="mailto:lucianamikiochiai@gmail.com"><FontAwesomeIcon className="mail-icon" icon={faEnvelope} /></a></li>
+                <li><a href="https://github.com/LucianaMiki"><FontAwesomeIcon className="git-icon" icon={faGithub}/></a></li>
+                <li><a href="https://www.linkedin.com/in/lucianamikiochiai/"><FontAwesomeIcon className="linkedin-icon" icon={faLinkedin}/></a></li>
             </ul>
         </div>
     </div>
