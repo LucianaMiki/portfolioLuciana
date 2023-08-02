@@ -31,12 +31,12 @@
     }
 }
 
-@media (max-width: 480px)  {
+@media (max-width: 480px) and (orientation: portrait){
     .project-container {
         margin:0;
         padding:0;
         position: absolute;
-        top: 15%;
+        top: 25%;
         left: 10%;
         color: rgb(203, 203, 203);
         font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
@@ -58,9 +58,46 @@
 
     .project-description {
         position: absolute;
-        top: 150%;
+        top: 160%;
         left: 0%;
         margin-top: 5%;
         font-size: 120%;
     }
+}
+
+@media (max-width: 1000px) and (orientation: landscape) {
+.project-container {
+    margin:0;
+    padding:0;
+    display:flex;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    color: rgb(203, 203, 203);
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+.project-iamge {
+    margin-top: 30px;
+    width: 300px;
+}
+
+.project-title {
+    display:flex;
+    position: absolute;
+    top: 10%;
+    left: 110%;
+    width: 70%;
+    margin-top: 5%;
+    font-size: 200%;
+}
+
+.project-description {
+    position: absolute;
+    top: 35%;
+    left: 110%;
+    margin-top: 5%;
+    font-size: 120%;
+    width: 70%;
+}
 }

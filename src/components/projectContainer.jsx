@@ -40,9 +40,6 @@ function ProjectContainer(props) {
     };
   }, [props]) 
 
-  console.log(props)
-  useEffect(() => console.log(projectChosen), [projectChosen]);
-
   return (
     <div className="project-container">
         <img className="project-iamge" src={projectChosen.project.image}></img>

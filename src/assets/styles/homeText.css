@@ -1,4 +1,4 @@
-@media only screen and (orientation: landscape) {
+@media only screen and (min-width : 1224px)  {
     .text-container {
         margin:0;
         padding:0;
@@ -29,9 +29,9 @@
     }
 }
 
-@media (max-width: 480px)  {
+@media (max-width: 480px) and (orientation: portrait) {
     .text-container {
-        margin-top:40%;
+        margin-top: 20%;
         margin-left: 5%;
         padding:0;
         color: rgb(203, 203, 203);
@@ -39,7 +39,9 @@
     }
 
     .text-container div {
-        margin-top: 1%;
+        margin-top: 0%;
+        line-height: 200%;
+        font-size: 20px;
     }
 
     .p-container {
@@ -54,4 +56,31 @@
         margin-bottom: 0%;
         margin-top: 0%;
     }
+}
+
+@media (max-width: 1000px) and (orientation: landscape) {
+.text-container {
+    margin-top: 2%;
+    margin-left: 5%;
+    padding:0;
+    color: rgb(203, 203, 203);
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+.text-container div {
+    margin-top: 1%;
+}
+
+.p-container {
+    margin:0;
+    top: 100%;
+    left:0%;
+    width: 60%;
+}
+
+.title {
+    font-size: 50px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
 }
