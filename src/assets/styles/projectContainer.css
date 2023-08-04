@@ -1,4 +1,4 @@
-@media only screen and (orientation: landscape) {
+@media only screen and (min-width : 1224px)  {
     .project-container {
         margin:0;
         padding:0;
@@ -100,4 +100,35 @@
     font-size: 1rem;
     width: 7rem;
 }
+}
+
+.project-container {
+    margin:0;
+    padding:0;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    color: rgb(203, 203, 203);
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+.project-iamge {
+    margin-top: 0px;
+    width: 500px;
+}
+
+.project-title {
+    position: fixed;
+    bottom: 10%;
+    left: 20%;
+    margin-top: 5%;
+    font-size: 300%;
+}
+
+.project-description {
+    position: fixed;
+    bottom: 5%;
+    left: 20%;
+    margin-top: 5%;
+    font-size: 120%;
 }
