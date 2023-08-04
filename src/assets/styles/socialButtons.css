@@ -199,6 +199,7 @@
 }
 }
 
+@media only screen and (max-width : 1224px) and (orientation: landscape) { 
 .list {
   margin:0;
   padding:0;
@@ -252,4 +253,5 @@
   color: #ffa502;
   box-shadow: 0 0 15px #d35400;
   text-shadow: 0 0 15px #d35400;
+}
 }
